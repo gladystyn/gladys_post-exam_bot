@@ -15,13 +15,17 @@ while True:
       feelings_list.append("bored")
       encouragement_list.append("you can always find something fun to do")
       counter += 1
-    if each_word == "enjoying":
-      feelings_list.append("enjoying")
-      encouragement_list.append("remember to share the fun with others")
+    if each_word == "happy":
+      feelings_list.append("happy")
+      encouragement_list.append("you should not be overly-proud and must always work hard")
       counter += 1
-    if each_word == "results":
-      feelings_list.append("results")
-      encouragement_list.append("don't worry, just try again")
+    if each_word == "angry":
+      feelings_list.append("angry")
+      encouragement_list.append("you can always improve yourself as long as you believe in yourself")
+      counter += 1
+    if each_word == "sad":
+      feelings_list.append("sad")
+      encouragement_list.append("you don't have to worry, just try again")
       counter += 1    
     if each_word == "worried":
       feelings_list.append("worried")
